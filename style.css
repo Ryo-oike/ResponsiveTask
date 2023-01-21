@@ -16,12 +16,19 @@ main {
     display: flex;
 }
 
-.box1 { 
-    width: 300px;
+.box { 
+    width: 100%;
     margin-right: 30px;
     padding: 10px;
     position: relative;
     background-color: #eee;
+}
+
+.step-num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff9a4b;
 }
 .box-img1 {
     height: 150px;
@@ -29,51 +36,19 @@ main {
     background-position: bottom;
     background-size: cover;
 }
-.step-num {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ff9a4b;
-}
 
-.box2 { 
-    width: 300px;
-    margin-right: 30px;
-    padding: 10px;
-    position: relative;
-    background-color: #eee;
-}
 .box-img2 {
     height: 150px;
     background-image: url(img/flow02.png);
     background-position: bottom;
     background-size: cover;
 }
-.step-num {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ff9a4b;
-}
 
-.box3 { 
-    width: 300px;
-    margin-right: 30px;
-    padding: 10px;
-    position: relative;
-    background-color: #eee;
-}
 .box-img3 {
     height: 150px;
     background-image: url(img/flow03.png);
     background-position: bottom;
     background-size: cover;
-}
-.step-num {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ff9a4b;
 }
 
 .title {
@@ -94,5 +69,11 @@ footer {
   main {
     display: inline-block;
     width: 100%;
+  }
+  .box {
+      width: 90%;
+      margin: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
   }
 }
